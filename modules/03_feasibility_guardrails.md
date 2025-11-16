@@ -1,3 +1,6 @@
+> Change Log (2025-11-16): 
+> – Updated bookings rule to notify user of high-demand bookings.
+   
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -32,6 +35,6 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 
 8. **Bookings**
    
-   - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+   - If activity usually needs a ticket → just remind the user to book it; never simulate bookings. If the activity is high-demand or popular, highlight it as a priority to reserve early.
 
 ---
